@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p style="text-align: center;">## Available Scripts</p>
 
 In the project directory, you can run:
 

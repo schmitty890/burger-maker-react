@@ -9,8 +9,8 @@ class Modal extends Component {
   // this is a slight performance enhancement as we don't need to update UI elements if they are not shown on the page.
   shouldComponentUpdate(nextProps, nextState) {
     console.log(nextProps);
-    console.log(nextProps.show !== this.props.show);
-    return nextProps.show !== this.props.show;
+    console.log(nextProps.show !== this.props.show || nextProps.children !== this.props.children);
+    return nextProps.show !== this.props.show || nextProps.children !== this.props.children;
   }
 
   render() {
